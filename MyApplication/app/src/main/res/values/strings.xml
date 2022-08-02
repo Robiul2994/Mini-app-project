@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="DepartmentName">
+        <item>Select one</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>BBA</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

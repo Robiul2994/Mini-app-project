@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity2">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Insert Height at cm"
+            android:id="@+id/weightInsert"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:layout_weight="1"
+
+            >
+
+        </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/hightInsert"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="Insert weight at kg"
+            android:textSize="20sp"
+            android:inputType="number"
+            android:layout_weight="1"
+
+            >
+
+        </EditText>
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate BmI"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:onClick="calculateBmi"
+
+
+        >
+
+    </Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bmiOutput"
+        android:text="output">
+
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="home"
+        android:onClick="homeFunction"
+
+        >
+
+
+
+    </Button>
+
+</LinearLayout>

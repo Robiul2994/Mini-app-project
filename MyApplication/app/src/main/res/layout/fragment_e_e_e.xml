@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EEE">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Department of EEE"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+
+            android:gravity="center_horizontal"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your ID"
+            android:textColorHint="@color/white"
+            android:textStyle="bold"
+
+
+            android:id="@+id/mystudentID2"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Name"
+            android:textColorHint="@color/white"
+            android:textStyle="bold"
+
+
+            android:id="@+id/mystudentnameID2"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log In"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:id="@+id/savedataID2"
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+
+</FrameLayout>
